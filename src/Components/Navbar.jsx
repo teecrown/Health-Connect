@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
   <>        
  
-    <div  className="flex justify-around align-middle text-center gap-[20px] ">
+    <div  className="flex justify-around align-middle text-center gap-[20px] h-[60px] ">
       <div>
         <img src={logo} alt="logo" />
       </div>
