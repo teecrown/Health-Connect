@@ -6,7 +6,7 @@ const faqs = [
   {
     question: "How do I find a nearby clinic or pharmacy?",
     answer:
-      "You can use the location-based search feature in the Health Connect app or website to find verified clinics and pharmacies near you.",
+      "Simply use the search feature on our homepage or click the `Find Care Near You button`. You can filter results by location, service type, or rating. Health Connect uses your current location (with your permission) to show you trusted clinics and pharmacies closest to you.",
   },
   {
     question: "Can I book an appointment directly through Health Connect?",
@@ -16,22 +16,22 @@ const faqs = [
   {
     question: "Are the health tips verified by professionals?",
     answer:
-      "Yes. All health tips on Health Connect are reviewed by certified medical professionals to ensure accuracy and reliability.",
+      "Yes, all health tips shared on Health Connect are carefully curated and reviewed by qualified healthcare professionals to ensure they are accurate, relevant, and safe. We are committed to providing reliable information you can trust.",
   },
   {
     question: "How long does it take to get a response from a medical expert?",
     answer:
-      "On average, expert responses are provided within 12 hours, depending on your query and specialist availability.",
+      "You can expect a response from a medical expert within 12 hours of submitting your inquiry. For urgent or emergency concerns, we strongly recommend using the “Find a Clinic” feature to locate the nearest healthcare center for immediate assistance.",
   },
   {
     question: "Is Health Connect free to use?",
     answer:
-      "Yes, the platform is free to access. Some advanced features may require a subscription in the future.",
+      "Yes, Health Connect is completely free to use. You can search for healthcare providers, access verified health tips, and consult with medical experts without any charges. Some external services, like clinic appointments, may have their own fees.",
   },
   {
     question: "How do I leave a review for a healthcare provider?",
     answer:
-      "After a visit, you'll be prompted to review the provider. You can also find the provider's profile and click 'Write a Review'.",
+      "After visiting a clinic or pharmacy listed on Health Connect, simply go to their profile and click on “Leave a Review.” You’ll be able to rate your experience and share helpful feedback for other users.",
   },
 ];
 
@@ -62,7 +62,7 @@ const FaqAccordion = () => {
               )}
             </button>
             {openIndex === index && (
-              <div className="mt-3 text-gray-700 text-sm leading-relaxed">
+              <div className="mt-3 text-gray-700 text-[20px] font-normal leading-[35px]">
                 {faq.answer}
               </div>
             )}
