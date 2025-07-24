@@ -5,6 +5,7 @@ import hand from "../assets/hand.png";
 import mosq from "../assets/mosquito.png";
 // import 2girls from "../assets/2girls.png";
 import inject from "../assets/inject.png";
+import bookmark from '../assets/bookmark.png';
 
 const FindCare = () => {
   return (
@@ -36,101 +37,82 @@ const FindCare = () => {
 
       {/* //cards  */}
 
-      <div className=" mt-[56px] bg-[#F0F3F6] px-[100px]">
-        <div className="flex justify-between py-[20px] ">
-          <p className="leading-[100%] text-[35px] font-[700] text-[#061522]  ">
+      <div className=" mt-[56px] bg-[#F0F3F6] px-[10px] sm:px-[100px]">
+        <div className="flex justify-between items-center py-[20px] ">
+          <p className="leading-[100%] text-[18px]font-[700] sm:text-[35px] sm:font-[700] text-[#061522]  ">
             Dieases Prevention
           </p>
           <a href="">view more</a>
         </div>
 
-        <div className="cards-container flex gap-[20px] my-[20px] ">
-          <div className=" card1 p-[15px] w-[203px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[20px] bg-[#FDFDFD] ">
+        <div className="cards-container flex gap-[54px] my-[20px] w-full">
+
+          <div className=" card1 rounded-[35px] p-[15px] w-[203px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[15px] bg-[#FDFDFD] ">
             <div className="">
               <img src={hand} alt="" srcset="" />
             </div>
-            <div className="flex justify-between">
-              <p>Wash Your Hands Often</p>
-              <p> icon</p>
+
+            <div className="flex justify-between w-full text-[#061522] font-[700] text-[25px] leading-[100%] font-[manrope] my-[30px] ">
+              <p className="w-[247px]">Wash Your Hands <br /> Often</p>
+              <img src={bookmark} alt="" srcset="" />
             </div>
-            <div>
-              <p>
+            <div className="mt-[30px]">
+
+              <p className=" text-[20px] leading-[100%] font-[400] font-manrope ">
                 Regular handwashing with soap reduces the spread of germs and
                 lowers your risk of infections.
               </p>
             </div>
-            <div>
+            <div className="mt-[30px]  flex justify-center items-center underline " >
               <a href="http://">Learn More</a>
             </div>
           </div>
 
-          <div className=" card1 p-[15px] w-[203px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[20px] bg-[#FDFDFD] ">
+          <div className=" card2 rounded-[35px] p-[15px] w-[187px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[15px] bg-[#FDFDFD] ">
             <div className="">
               <img src={inject} alt="" srcset="" />
             </div>
-            <div className="flex justify-between">
-              <p>Wash Your Hands Often</p>
-              <p> icon</p>
+             <div className="flex justify-between w-full text-[#061522] font-[700] text-[25px] leading-[100%] font-[manrope] my-[30px] ">
+              
+              <p className="w-[247px]">Keep Up with <br /> Vaccinations</p>
+              <img src={bookmark} alt="" srcset="" />
             </div>
-            <div>
-              <p>
-                Regular handwashing with soap reduces the spread of germs and
-                lowers your risk of infections.
-              </p>
+            <div className="mt-[30px]">
+              
+            <p className=" text-[20px] leading-[100%] font-[400] font-manrope ">Stay updated on immunizations to protect yourself and your community from preventable diseases.</p>
+          
+              
             </div>
-            <div>
+            <div  className="mt-[30px]  flex justify-center items-center underline ">
               <a href="http://">Learn More</a>
             </div>
           </div>
 
-          <div className=" card1 p-[15px] w-[203px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[20px] bg-[#FDFDFD] ">
+
+          <div className=" card3 rounded-[35px] p-[15px] w-[203px] h-[304px] sm:w-[300px] sm:h-[400px] md:w-[377px] md:h-[533px] my-[10px] sm:my-[15px] bg-[#FDFDFD] ">
             <div className="">
               <img src={mosq} alt="" srcset="" />
             </div>
-            <div className="flex justify-between">
-              <p>Wash Your Hands Often</p>
-              <p> icon</p>
+             <div className="flex justify-between w-full text-[#061522] font-[700] text-[25px] leading-[100%] font-[manrope] my-[30px] ">
+             <p className="w-[247px]"> Mosquitoe <br /> Safety </p>
+              <img src={bookmark} alt="" srcset="" />
             </div>
-            <div>
-              <p>
-                Regular handwashing with soap reduces the spread of germs and
-                lowers your risk of infections.
+            <div className="mt-[5px] flex flex-col justify-center align-middle">
+             
+              <p className=" text-[20px] leading-[100%] font-[400] font-manrope ">
+              Use treated nets and repellents to prevent malaria, especially in high-risk areas.
               </p>
             </div>
-            <div>
+            <div className="mt-[30px]  flex justify-center items-center underline ">
               <a href="http://">Learn More</a>
             </div>
           </div>
-          {/* <div className=" card2">
-           <img src={inject} alt="" srcset="" />
-           <div className="flex justify-between">
-            <p>Keep Up with Vaccinations</p>
-            <p>icon</p>
-           </div>
-           <div>
-            <p>Stay updated on immunizations to protect yourself and your community from preventable diseases.</p>
-           </div>
-           <div>
-            <a href="http://">Learn More</a>
-           </div>
-        </div> */}
 
-          {/* <div className=" card3">
-           <img src={mosq} alt="" srcset="" />
-           <div className="flex justify-between">
-            <p>Mosquito Safety</p>
-            <p>icon</p>
-           </div>
-           <div>
-            <p>Stay updated on immunizations to protect yourself and your community from preventable diseases.</p>
-           </div>
-           <div>
-            <a href="http://">Learn More</a>
-           </div>
-        </div> */}
+        
+      
         </div>
       </div>
-    </div>
+     </div>
   );
 };
 export default FindCare;

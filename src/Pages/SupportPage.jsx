@@ -7,7 +7,7 @@ const SupportPage = () => {
     <div>
         <Navbar />
         <FindCare />
-      kkkdfk
+      
     </div>
   )
 };
