@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import FindCare from './FindCare.jsx'
+import Footer from '../Components/Footer'
+import FAQ from '../Components/FAQ'
 
 const SupportPage = () => {
   return (
@@ -8,6 +10,8 @@ const SupportPage = () => {
         <Navbar />
         <FindCare />
       
+        <FAQ />
+        <Footer />
     </div>
   )
 };

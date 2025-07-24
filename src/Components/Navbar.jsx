@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white px-6 md:px-16 py-4 flex justify-between items-center shadow-md">
       {/* Logo */}
-      <Link to="/" className="flex items-center justify-center overflow-hidden bg-white">
+      <Link to="/Homepage" className="flex items-center justify-center overflow-hidden bg-white">
         <img src={HealthLogo} alt="Health Logo" className="w-20 h-20 object-contain" />
       </Link>
 
@@ -30,12 +30,16 @@ const Navbar = () => {
 
       {/* Buttons and Language */}
       <div className="flex items-center space-x-4">
-        <button className="bg-green-600 text-white text-sm px-5 py-2 rounded-lg hover:bg-green-700 transition">
-          Log in
-        </button>
-        <button className="border border-green-600 text-green-600 text-sm px-5 py-2 rounded-lg hover:bg-green-50 transition">
-          Sign Up
-        </button>
+        <Link to="/login">
+          <button className="bg-green-600 text-white text-sm px-5 py-2 rounded-lg hover:bg-green-700 transition">
+            Log in
+          </button>
+        </Link>
+        <Link to="/signup">
+          <button className="border border-green-600 text-green-600 text-sm px-5 py-2 rounded-lg hover:bg-green-50 transition">
+            Sign Up
+          </button>
+        </Link>
         <div className="flex items-center space-x-1 text-sm text-gray-700 cursor-pointer">
           <FaGlobe size={16} />
           <span>EN</span>
