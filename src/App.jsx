@@ -2,6 +2,9 @@
 import React from 'react'
 import './App.css'
 import SupportPage from './Pages/SupportPage'
+import FindCare from './Pages/FindCare.jsx'
+import SupportPage from './Pages/SupportPage';
+import Homepage from './Pages/Homepage';
 import { Routes, Route } from "react-router";
 
 function App() {
@@ -11,6 +14,10 @@ function App() {
     <>
     <Routes>
       <Route path="/" element={<SupportPage />} ></Route>
+      <Route path="/findcare" element={<FindCare />} ></Route>
+      {/* Add other routes here as needed */}
+      <Route path="/" element={<Homepage />} />
+      <Route path="/Support" element={<SupportPage />} />
     </Routes>
       
       
