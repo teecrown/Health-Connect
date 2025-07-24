@@ -1,7 +1,8 @@
 // import { useState } from 'react'
 import React from 'react'
 import './App.css'
-import SupportPage from './Pages/SupportPage'
+import SupportPage from './Pages/SupportPage';
+import Homepage from './Pages/Homepage';
 import { Routes, Route } from "react-router";
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<SupportPage />} ></Route>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/Support" element={<SupportPage />} />
     </Routes>
       
       
