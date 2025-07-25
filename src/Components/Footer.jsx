@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaXTwitter, FaFacebookF } from "react-icons/fa6";
+import {FaInstagram, FaXTwitter, FaFacebookF} from "react-icons/fa6";
 import { Link } from 'react-router';
 import HealthLogo from '../assets/Health-logo.png';
 

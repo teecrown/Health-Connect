@@ -1,5 +1,5 @@
 
-import { FaGlobe } from "react-icons/fa";
+import {FaGlobe} from "react-icons/fa";
 import React from 'react';
 import { Link } from 'react-router';
 import HealthLogo from '../assets/Health-logo.png';
@@ -18,10 +18,10 @@ const Navbar = () => {
           <Link to="/" className="text-black font-semibold cursor-pointer">Home</Link>
         </li>
         <li>
-          <Link to="/find-care" className="hover:text-black cursor-pointer">Find Care</Link>
+          <Link to="/findcare" className="hover:text-black cursor-pointer">Find Care</Link>
         </li>
         <li>
-          <Link to="/health-tips" className="hover:text-black cursor-pointer">Health Tips</Link>
+          <Link to="/healthtips" className="hover:text-black cursor-pointer">Health Tips</Link>
         </li>
         <li>
           <Link to="/support" className="hover:text-black cursor-pointer">Support</Link>
