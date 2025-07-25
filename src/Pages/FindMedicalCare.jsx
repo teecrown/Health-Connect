@@ -7,6 +7,7 @@ import beds from '../assets/beds.png'
 import nurse from '../assets/nurse.png'
 import hallway from '../assets/hallway.png'
 import { useState } from 'react';
+import Footer from '../Components/Footer'
 
 export default function FindMedicalCare() {
 // const FindMedicalCare = () => {
@@ -209,7 +210,7 @@ export default function FindMedicalCare() {
 
 
 
-
+<Footer />
     </div>
   )
 }
