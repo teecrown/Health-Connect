@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <ul className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">
         <li>
-          <Link to="/" className="text-black font-semibold cursor-pointer">Home</Link>
+          <Link to="/" className="hover:text-black font-semibold cursor-pointer">Home</Link>
         </li>
         <li>
           <Link to="/find-care" className="hover:text-black cursor-pointer">Find Care</Link>

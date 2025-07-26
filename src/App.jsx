@@ -5,6 +5,7 @@ import './App.css'
 import FindCare from './Pages/FindCare.jsx'
 import SupportPage from './Pages/SupportPage';
 import Homepage from './Pages/Homepage';
+import Login from './Pages/Login'
 import { Routes, Route } from "react-router";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       {/* Add other routes here as needed */}
       <Route path="/" element={<Homepage />} />
       <Route path="/SupportPage" element={<SupportPage />} />
+      <Route path="/Login" element={<Login/>} />
     </Routes>
       
       
