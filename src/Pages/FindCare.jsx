@@ -78,9 +78,9 @@ const StarRating = ({ rating }) => {
   const half = rating % 1 >= 0.5;
 
   for (let i = 0; i < 5; i++) {
-    if (i < fullStars) stars.push(<FaStar key={i} className="text-yellow-500" />);
-    else if (i === fullStars && half) stars.push(<FaStar key={i} className="text-yellow-300" />);
-    else stars.push(<FaRegStar key={i} className="text-gray-300" />);
+    if (i < fullStars) stars.push(<FaStar key={i} className="text-black-500" />);
+    else if (i === fullStars && half) stars.push(<FaStar key={i} className="text-black-300" />);
+    else stars.push(<FaRegStar key={i} className="text-black-300" />);
   }
   return <div className="flex gap-1">{stars}</div>;
 };
@@ -133,7 +133,7 @@ const MedicalSearch = () => {
           {[5, 4, 3, 2, 1].map((star) => (
             <label key={star} className="flex items-center gap-2 mb-1">
               <input type="radio" name="rating" />
-              <div className="flex text-yellow-500">
+              <div className="flex text-black-500">
                 {[...Array(star)].map((_, i) => (
                   <FaStar key={i} />
                 ))}

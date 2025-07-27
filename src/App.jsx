@@ -15,7 +15,7 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/Findcare" element={<FindCare />} />
+      <Route path="/FindCare" element={<FindCare />} />
       {/* Add other routes here as needed */}
       <Route path="/" element={<Homepage />} />
       <Route path="/SupportPage" element={<SupportPage />} />

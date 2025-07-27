@@ -8,7 +8,6 @@ const SupportPage = () => {
   return (
     <div>
         <Navbar />
-        <FindCare />
       
         <FAQ />
         <Footer />
