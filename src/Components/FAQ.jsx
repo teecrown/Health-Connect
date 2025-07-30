@@ -62,7 +62,7 @@ const FaqAccordion = () => {
               )}
             </button>
             {openIndex === index && (
-              <div className="mt-3 text-gray-700 text-[20px] font-normal leading-[35px]">
+              <div className="mt-3 text-black-300 text-[20px] font-bold leading-[35px]">
                 {faq.answer}
               </div>
             )}
