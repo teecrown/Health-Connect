@@ -4,7 +4,7 @@ import Family from '../assets/Family.png'
 import Olivet from '../assets/Olivet.png'
 import Life from '../assets/Lifespring.png'
 import Medical from '../assets/Medical.png'
-import Wellness from '../assets/Wellness.png'
+import Wellness from '../assets/wellness.png'
 import Navbar from '../Components/Navbar'
 import Footer from '../Components/Footer'
 
