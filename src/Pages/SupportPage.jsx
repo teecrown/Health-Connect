@@ -19,7 +19,7 @@ const SupportPage = () => {
           {" "}
           We're <span className='text-[#0B9A55]'> Here to Help</span>, Every Step of the Way{" "}
         </h2>
-        <p className="text-center text-white text-[18px] leading-[150%] font-500 w-[600px] h-[72px]">
+        <p className="text-center text-white text-[18px] leading-[100%] font-500 w-[600px] h-[72px]">
           {" "}
           Have questions, concerns, or need guidance? The Health Connect support
           team is committed to helping you find answers quickly. Your peace of
