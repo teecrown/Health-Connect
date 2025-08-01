@@ -2,11 +2,12 @@
 import React from 'react'
 import './App.css'
 
-import FindCare from './Pages/FindCare'
+// import FindMedicalCare from './Pages/FindMedicalCare'
 import Healthtips from './Pages/Healthtips'
 import SupportPage from './Pages/SupportPage';
 import Homepage from './Pages/Homepage';
 import Login from './Pages/Login'
+import FindCare from './Pages/FindCare'
 import { Routes, Route } from "react-router";
 // import Healthtips from "./Pages/Healthtips";
 
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
     <Routes>
+      {/* <Route path="/FindMedicalCare" element={<FindMedicalCare />} /> */}
       <Route path="/FindCare" element={<FindCare />} />
       {/* Add other routes here as needed */}
       <Route path="/" element={<Homepage />} />
