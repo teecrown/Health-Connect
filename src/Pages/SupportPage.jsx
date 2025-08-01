@@ -9,25 +9,59 @@ const SupportPage = () => {
   return (
     <div>
       <Navbar />
-      <div>
-        <img src={support} alt="" className='absolute w-full  h-[201px] sm:h-[313px] ' />
+      <div className="relative text-center w-full  flex items-center h-[201px] sm:h-[313px] md:h-[500px]">
+        <img
+          src={support}
+          alt=" Support"
+          className=" w-full h-full object-cover"
+        />
+        <div className="absolute backdrop-blur-sm  m-auto bg-opacity-50 inset-0 flex justify-center  border border-white w-[580px] h-[250px]">
+          <div className=" w-[580px] py-[20px]" >
+            <h2 className="text-white leading-[100%] font-[700] text-[45px]   ">
+              {" "}
+              We're <span className="text-[#0B9A55]"> Here to Help</span>, Every
+              Step of the Way{" "}
+            </h2>
+            <p className="items-center text-white text-[18px] leading-[150%] font-[400] w-[500px] py-[20px] m-auto h-[61px]">
+              {" "}
+              Have questions, concerns, or need guidance? The Health Connect
+              support team is committed to helping you find answers quickly.
+              Your peace of mind matters to us.
+            </p>
+          </div>
+        </div>{" "}
       </div>
-          
-      <div className=" relative  flex justify-center  items-center border w-[620px] p-4 ">
-        <div >
-        <h2 className="text-white leading-[100%] font-700 text-[45px]   text-center justify-center items-center w-[582px] h-[122px] ">
-          {" "}
-          We're <span className='text-[#0B9A55]'> Here to Help</span>, Every Step of the Way{" "}
-        </h2>
-        <p className="text-center text-white text-[18px] leading-[150%] font-500 w-[600px] h-[72px]">
-          {" "}
-          Have questions, concerns, or need guidance? The Health Connect support
-          team is committed to helping you find answers quickly. Your peace of
-          mind matters to us.
-        </p>
+     
+      <FAQ />
+       <div className="chat-support ">
+        <h2>Chat Support</h2>
+        <div className="">
+          <div>Health Connect Support</div>
+          <div>
+            <p>Hello, I’m here to help you with finding clinics, pharmacies, health tips and more. How can I help you today?</p>
+           <form className="flex flex-col gap-4">
+            <label htmlFor="" name=''>
+              <input type="radio" name="" id="" />
+              Book an appointment
+            </label>
+            <label htmlFor="" name=''>
+              <input type="radio" name="" id="" />
+           Find a nearby clinic
+            </label>
+            <label htmlFor="" name=''>
+              <input type="radio" name="" id="" />
+              Book an appointment
+            </label>
+            <label htmlFor="" name=''>
+              <input type="radio" name="" id="" />
+              Book an appointment
+            </label>
+           </form>
+            
+          </div>
+          <div></div>
         </div>
       </div>
-      <FAQ />
       <Footer />
     </div>
   );
