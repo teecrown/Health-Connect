@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to="/" className="hover:text-black font-semibold cursor-pointer">Home</Link>
         </li>
         <li>
-          <Link to="/Findcare" className="hover:text-black cursor-pointer">Find Care</Link>
+          <Link to="/FindCare" className="hover:text-black cursor-pointer">Find Care</Link>
         </li>
         <li>
           <Link to="/Healthtips" className="hover:text-black cursor-pointer">Health Tips</Link>

@@ -140,6 +140,28 @@ const MedicalSearch = () => {
               </div>
             </label>
           ))}
+          {/* {[5, 4, 3, 2, 1].map((stars) => (
+                <label key={stars} className="block mb-2 cursor-pointer">
+                  <input
+                    type="radio"
+                    name="rating"
+                    className="mr-2"
+                    onChange={() => setRatingFilter(stars)}
+                    checked={ratingFilter === stars}
+                  />
+                  {"★".repeat(stars)}
+                </label>
+              ))} */}
+              {/* <label className="block mt-2 cursor-pointer">
+                <input
+                  type="radio"
+                  name="rating"
+                  className="mr-2"
+                  onChange={() => setRatingFilter(null)}
+                  checked={ratingFilter === null}
+                />
+                All Ratings
+              </label> */}
 
           <h2 className="font-semibold my-3">Availability</h2>
           {["Available now", "Within 3 hours", "Within 6 hours", "Within 12 hours"].map((t, i) => (
